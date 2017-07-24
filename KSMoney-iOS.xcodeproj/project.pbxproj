@@ -12,6 +12,14 @@
 		3C5414F11F186A170089CFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5414F01F186A170089CFDD /* ViewController.swift */; };
 		3C5414F61F186A180089CFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5414F51F186A180089CFDD /* Assets.xcassets */; };
 		3C5414F91F186A180089CFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5414F71F186A180089CFDD /* LaunchScreen.storyboard */; };
+		3C552A4E1F25D3660088E0A9 /* KSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A4D1F25D3660088E0A9 /* KSMainViewController.swift */; };
+		3C552A561F25D6610088E0A9 /* KSLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A551F25D6610088E0A9 /* KSLoginController.swift */; };
+		3C552A581F25D6780088E0A9 /* KSTallyListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A571F25D6780088E0A9 /* KSTallyListController.swift */; };
+		3C552A631F25DBE00088E0A9 /* UIColor_Kamy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A621F25DBE00088E0A9 /* UIColor_Kamy.swift */; };
+		3C552A661F25DE0A0088E0A9 /* KSTallyAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A651F25DE0A0088E0A9 /* KSTallyAddController.swift */; };
+		3C552A681F25DE220088E0A9 /* KSMainTallyAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */; };
+		3C552A6C1F25DECF0088E0A9 /* AppTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A6B1F25DECF0088E0A9 /* AppTool.swift */; };
+		3C552A6E1F25DFA00088E0A9 /* KSInterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +31,14 @@
 		3C5414F51F186A180089CFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5414F81F186A180089CFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C5414FA1F186A180089CFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C552A4D1F25D3660088E0A9 /* KSMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSMainViewController.swift; sourceTree = "<group>"; };
+		3C552A551F25D6610088E0A9 /* KSLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLoginController.swift; sourceTree = "<group>"; };
+		3C552A571F25D6780088E0A9 /* KSTallyListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyListController.swift; sourceTree = "<group>"; };
+		3C552A621F25DBE00088E0A9 /* UIColor_Kamy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Kamy.swift; sourceTree = "<group>"; };
+		3C552A651F25DE0A0088E0A9 /* KSTallyAddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyAddController.swift; sourceTree = "<group>"; };
+		3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSMainTallyAddView.swift; sourceTree = "<group>"; };
+		3C552A6B1F25DECF0088E0A9 /* AppTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTool.swift; sourceTree = "<group>"; };
+		3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSInterFace.swift; sourceTree = "<group>"; };
 		B8A38B8DFDC24E77FDF4F62F /* Pods_KSMoney_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSMoney_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,11 +77,75 @@
 			children = (
 				3C5414EE1F186A170089CFDD /* AppDelegate.swift */,
 				3C5414F01F186A170089CFDD /* ViewController.swift */,
+				3C552A541F25D6320088E0A9 /* LogIn */,
+				3C552A4C1F25D3210088E0A9 /* Main */,
+				3C552A4F1F25D5180088E0A9 /* TallyList */,
+				3C552A641F25DE0A0088E0A9 /* TallyAdd */,
+				3C552A5B1F25D7A90088E0A9 /* Tool */,
 				3C5414F51F186A180089CFDD /* Assets.xcassets */,
 				3C5414F71F186A180089CFDD /* LaunchScreen.storyboard */,
 				3C5414FA1F186A180089CFDD /* Info.plist */,
 			);
 			path = "KSMoney-iOS";
+			sourceTree = "<group>";
+		};
+		3C552A4C1F25D3210088E0A9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C552A4D1F25D3660088E0A9 /* KSMainViewController.swift */,
+				3C552A531F25D6000088E0A9 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3C552A4F1F25D5180088E0A9 /* TallyList */ = {
+			isa = PBXGroup;
+			children = (
+				3C552A571F25D6780088E0A9 /* KSTallyListController.swift */,
+			);
+			path = TallyList;
+			sourceTree = "<group>";
+		};
+		3C552A531F25D6000088E0A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C552A541F25D6320088E0A9 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				3C552A551F25D6610088E0A9 /* KSLoginController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		3C552A5B1F25D7A90088E0A9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3C552A6B1F25DECF0088E0A9 /* AppTool.swift */,
+				3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */,
+				3C552A5C1F25D8840088E0A9 /* Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3C552A5C1F25D8840088E0A9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3C552A621F25DBE00088E0A9 /* UIColor_Kamy.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3C552A641F25DE0A0088E0A9 /* TallyAdd */ = {
+			isa = PBXGroup;
+			children = (
+				3C552A651F25DE0A0088E0A9 /* KSTallyAddController.swift */,
+			);
+			path = TallyAdd;
 			sourceTree = "<group>";
 		};
 		7BA16C335E586CFEC400B13B /* Frameworks */ = {
@@ -114,6 +194,7 @@
 		3C5414E31F186A170089CFDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KS;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = kamy;
@@ -121,6 +202,7 @@
 					3C5414EA1F186A170089CFDD = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 9CJP9J82HZ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -197,11 +279,9 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KSMoney-iOS/Pods-KSMoney-iOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/PDTSimpleCalendar/PDTSimpleCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
@@ -209,11 +289,9 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDTSimpleCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
@@ -230,8 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C552A581F25D6780088E0A9 /* KSTallyListController.swift in Sources */,
 				3C5414F11F186A170089CFDD /* ViewController.swift in Sources */,
+				3C552A681F25DE220088E0A9 /* KSMainTallyAddView.swift in Sources */,
+				3C552A561F25D6610088E0A9 /* KSLoginController.swift in Sources */,
+				3C552A6C1F25DECF0088E0A9 /* AppTool.swift in Sources */,
+				3C552A6E1F25DFA00088E0A9 /* KSInterFace.swift in Sources */,
+				3C552A631F25DBE00088E0A9 /* UIColor_Kamy.swift in Sources */,
+				3C552A661F25DE0A0088E0A9 /* KSTallyAddController.swift in Sources */,
 				3C5414EF1F186A170089CFDD /* AppDelegate.swift in Sources */,
+				3C552A4E1F25D3660088E0A9 /* KSMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +433,14 @@
 			baseConfigurationReference = 0400E74A5CE931114B26F47E /* Pods-KSMoney-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9CJP9J82HZ;
 				INFOPLIST_FILE = "KSMoney-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KSMoney-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -362,6 +450,7 @@
 			baseConfigurationReference = 14AF67BD81BAEA25B67D4F94 /* Pods-KSMoney-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9CJP9J82HZ;
 				INFOPLIST_FILE = "KSMoney-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

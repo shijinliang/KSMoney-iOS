@@ -11,9 +11,7 @@ target 'KSMoney-iOS' do
   pod 'Alamofire', '~> 4.0'
   pod 'Kingfisher'
   pod 'SnapKit'
-  pod 'PDTSimpleCalendar'
   pod 'SwiftyJSON'
-  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'   #颜色
   pod 'SwiftyUserDefaults'
   pod 'Charts'
   pod 'CryptoSwift'
