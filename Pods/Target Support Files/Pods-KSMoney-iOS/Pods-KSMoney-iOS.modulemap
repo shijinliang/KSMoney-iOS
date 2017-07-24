@@ -1,0 +1,6 @@
+framework module Pods_KSMoney_iOS {
+  umbrella header "Pods-KSMoney-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
