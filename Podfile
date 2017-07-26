@@ -12,8 +12,8 @@ target 'KSMoney-iOS' do
   pod 'Kingfisher'
   pod 'SnapKit'
   pod 'SwiftyJSON'
+  pod 'HandyJSON'
   pod 'SwiftyUserDefaults'
   pod 'Charts'
   pod 'CryptoSwift'
-
 end
