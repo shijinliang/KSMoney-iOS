@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,9 +19,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
-        let mainCtrl = KSMainViewController()
-        let nav = UINavigationController(rootViewController: mainCtrl)
-        window?.rootViewController = nav
+        let token = Defaults[.token]
+        //let model = Defaults[.loginModel].object
+        if token != nil {
+            let mainCtrl = KSMainViewController()
+            let nav = UINavigationController(rootViewController: mainCtrl)
+            window?.rootViewController = nav
+        } else {
+            let loginCtrl = KSLoginController()
+            window?.rootViewController = loginCtrl
+        }
+
         window?.makeKeyAndVisible()
         return true
     }

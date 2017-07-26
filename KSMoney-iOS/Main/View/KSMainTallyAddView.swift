@@ -41,7 +41,7 @@ class KSMainTallyAddView: UIView {
         button.backgroundColor = UIColor.white
         button.adjustsImageWhenHighlighted = false
         button.setTitle("  记一笔", for: UIControlState.normal)
-        button.setTitleColor(UIColor(hex: "00B5FF"), for: UIControlState.normal)
+        button.setTitleColor(ColorMain, for: UIControlState.normal)
         button.setImage(UIImage(named: "icon_tally_add"), for: UIControlState.normal)
         button.addTarget(self, action: #selector(KSMainTallyAddView.clickAddBlock), for: UIControlEvents.touchUpInside)
         return button

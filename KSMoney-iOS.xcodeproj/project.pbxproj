@@ -20,6 +20,8 @@
 		3C552A681F25DE220088E0A9 /* KSMainTallyAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */; };
 		3C552A6C1F25DECF0088E0A9 /* AppTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A6B1F25DECF0088E0A9 /* AppTool.swift */; };
 		3C552A6E1F25DFA00088E0A9 /* KSInterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */; };
+		3C7BB2E71F2739AE005D84B7 /* KSLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BB2E61F2739AE005D84B7 /* KSLoginModel.swift */; };
+		3C7BB2E91F273C7F005D84B7 /* KSNetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BB2E81F273C7F005D84B7 /* KSNetTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSMainTallyAddView.swift; sourceTree = "<group>"; };
 		3C552A6B1F25DECF0088E0A9 /* AppTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTool.swift; sourceTree = "<group>"; };
 		3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSInterFace.swift; sourceTree = "<group>"; };
+		3C7BB2E61F2739AE005D84B7 /* KSLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLoginModel.swift; sourceTree = "<group>"; };
+		3C7BB2E81F273C7F005D84B7 /* KSNetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSNetTool.swift; sourceTree = "<group>"; };
 		B8A38B8DFDC24E77FDF4F62F /* Pods_KSMoney_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSMoney_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				3C552A551F25D6610088E0A9 /* KSLoginController.swift */,
+				3C7BB2E61F2739AE005D84B7 /* KSLoginModel.swift */,
 			);
 			path = LogIn;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			children = (
 				3C552A6B1F25DECF0088E0A9 /* AppTool.swift */,
 				3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */,
+				3C7BB2E81F273C7F005D84B7 /* KSNetTool.swift */,
 				3C552A5C1F25D8840088E0A9 /* Category */,
 			);
 			path = Tool;
@@ -281,6 +287,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -291,6 +298,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -309,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C552A581F25D6780088E0A9 /* KSTallyListController.swift in Sources */,
+				3C7BB2E91F273C7F005D84B7 /* KSNetTool.swift in Sources */,
 				3C5414F11F186A170089CFDD /* ViewController.swift in Sources */,
 				3C552A681F25DE220088E0A9 /* KSMainTallyAddView.swift in Sources */,
 				3C552A561F25D6610088E0A9 /* KSLoginController.swift in Sources */,
@@ -316,6 +325,7 @@
 				3C552A6E1F25DFA00088E0A9 /* KSInterFace.swift in Sources */,
 				3C552A631F25DBE00088E0A9 /* UIColor_Kamy.swift in Sources */,
 				3C552A661F25DE0A0088E0A9 /* KSTallyAddController.swift in Sources */,
+				3C7BB2E71F2739AE005D84B7 /* KSLoginModel.swift in Sources */,
 				3C5414EF1F186A170089CFDD /* AppDelegate.swift in Sources */,
 				3C552A4E1F25D3660088E0A9 /* KSMainViewController.swift in Sources */,
 			);
