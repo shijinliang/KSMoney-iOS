@@ -22,6 +22,9 @@
 		3C552A6E1F25DFA00088E0A9 /* KSInterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */; };
 		3C7BB2E71F2739AE005D84B7 /* KSLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BB2E61F2739AE005D84B7 /* KSLoginModel.swift */; };
 		3C7BB2E91F273C7F005D84B7 /* KSNetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BB2E81F273C7F005D84B7 /* KSNetTool.swift */; };
+		3CBAD7D81F283F960043DF3F /* KSTallyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */; };
+		3CBAD7DB1F2865E00043DF3F /* KSTallyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAD7D91F2865E00043DF3F /* KSTallyCell.swift */; };
+		3CBAD7DC1F2865E00043DF3F /* KSTallyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAD7DA1F2865E00043DF3F /* KSTallyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSInterFace.swift; sourceTree = "<group>"; };
 		3C7BB2E61F2739AE005D84B7 /* KSLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLoginModel.swift; sourceTree = "<group>"; };
 		3C7BB2E81F273C7F005D84B7 /* KSNetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSNetTool.swift; sourceTree = "<group>"; };
+		3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyModel.swift; sourceTree = "<group>"; };
+		3CBAD7D91F2865E00043DF3F /* KSTallyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyCell.swift; sourceTree = "<group>"; };
+		3CBAD7DA1F2865E00043DF3F /* KSTallyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSTallyCell.xib; sourceTree = "<group>"; };
 		B8A38B8DFDC24E77FDF4F62F /* Pods_KSMoney_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSMoney_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,6 +104,7 @@
 			children = (
 				3C552A4D1F25D3660088E0A9 /* KSMainViewController.swift */,
 				3C552A531F25D6000088E0A9 /* View */,
+				3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -114,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */,
+				3CBAD7D91F2865E00043DF3F /* KSTallyCell.swift */,
+				3CBAD7DA1F2865E00043DF3F /* KSTallyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBAD7DC1F2865E00043DF3F /* KSTallyCell.xib in Resources */,
 				3C5414F91F186A180089CFDD /* LaunchScreen.storyboard in Resources */,
 				3C5414F61F186A180089CFDD /* Assets.xcassets in Resources */,
 			);
@@ -319,6 +329,7 @@
 				3C552A581F25D6780088E0A9 /* KSTallyListController.swift in Sources */,
 				3C7BB2E91F273C7F005D84B7 /* KSNetTool.swift in Sources */,
 				3C5414F11F186A170089CFDD /* ViewController.swift in Sources */,
+				3CBAD7D81F283F960043DF3F /* KSTallyModel.swift in Sources */,
 				3C552A681F25DE220088E0A9 /* KSMainTallyAddView.swift in Sources */,
 				3C552A561F25D6610088E0A9 /* KSLoginController.swift in Sources */,
 				3C552A6C1F25DECF0088E0A9 /* AppTool.swift in Sources */,
@@ -327,6 +338,7 @@
 				3C552A661F25DE0A0088E0A9 /* KSTallyAddController.swift in Sources */,
 				3C7BB2E71F2739AE005D84B7 /* KSLoginModel.swift in Sources */,
 				3C5414EF1F186A170089CFDD /* AppDelegate.swift in Sources */,
+				3CBAD7DB1F2865E00043DF3F /* KSTallyCell.swift in Sources */,
 				3C552A4E1F25D3660088E0A9 /* KSMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
