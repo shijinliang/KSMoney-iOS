@@ -25,6 +25,9 @@
 		3CBAD7D81F283F960043DF3F /* KSTallyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */; };
 		3CBAD7DB1F2865E00043DF3F /* KSTallyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAD7D91F2865E00043DF3F /* KSTallyCell.swift */; };
 		3CBAD7DC1F2865E00043DF3F /* KSTallyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAD7DA1F2865E00043DF3F /* KSTallyCell.xib */; };
+		3CD1B70B1F2F2060009A0C60 /* KSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1B70A1F2F2060009A0C60 /* KSTabBarController.swift */; };
+		3CD1B70D1F2F27AF009A0C60 /* KSGruopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1B70C1F2F27AF009A0C60 /* KSGruopItem.swift */; };
+		3CD1B70F1F2F2D95009A0C60 /* KamyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1B70E1F2F2D95009A0C60 /* KamyExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyModel.swift; sourceTree = "<group>"; };
 		3CBAD7D91F2865E00043DF3F /* KSTallyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyCell.swift; sourceTree = "<group>"; };
 		3CBAD7DA1F2865E00043DF3F /* KSTallyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSTallyCell.xib; sourceTree = "<group>"; };
+		3CD1B70A1F2F2060009A0C60 /* KSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTabBarController.swift; sourceTree = "<group>"; };
+		3CD1B70C1F2F27AF009A0C60 /* KSGruopItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSGruopItem.swift; sourceTree = "<group>"; };
+		3CD1B70E1F2F2D95009A0C60 /* KamyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KamyExtension.swift; sourceTree = "<group>"; };
 		B8A38B8DFDC24E77FDF4F62F /* Pods_KSMoney_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSMoney_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +93,7 @@
 			children = (
 				3C5414EE1F186A170089CFDD /* AppDelegate.swift */,
 				3C5414F01F186A170089CFDD /* ViewController.swift */,
+				3CD1B70A1F2F2060009A0C60 /* KSTabBarController.swift */,
 				3C552A541F25D6320088E0A9 /* LogIn */,
 				3C552A4C1F25D3210088E0A9 /* Main */,
 				3C552A4F1F25D5180088E0A9 /* TallyList */,
@@ -105,6 +112,7 @@
 				3C552A4D1F25D3660088E0A9 /* KSMainViewController.swift */,
 				3C552A531F25D6000088E0A9 /* View */,
 				3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */,
+				3CD1B70C1F2F27AF009A0C60 /* KSGruopItem.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				3C552A621F25DBE00088E0A9 /* UIColor_Kamy.swift */,
+				3CD1B70E1F2F2D95009A0C60 /* KamyExtension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -299,6 +308,7 @@
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
@@ -310,6 +320,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
@@ -328,9 +339,11 @@
 			files = (
 				3C552A581F25D6780088E0A9 /* KSTallyListController.swift in Sources */,
 				3C7BB2E91F273C7F005D84B7 /* KSNetTool.swift in Sources */,
+				3CD1B70B1F2F2060009A0C60 /* KSTabBarController.swift in Sources */,
 				3C5414F11F186A170089CFDD /* ViewController.swift in Sources */,
 				3CBAD7D81F283F960043DF3F /* KSTallyModel.swift in Sources */,
 				3C552A681F25DE220088E0A9 /* KSMainTallyAddView.swift in Sources */,
+				3CD1B70D1F2F27AF009A0C60 /* KSGruopItem.swift in Sources */,
 				3C552A561F25D6610088E0A9 /* KSLoginController.swift in Sources */,
 				3C552A6C1F25DECF0088E0A9 /* AppTool.swift in Sources */,
 				3C552A6E1F25DFA00088E0A9 /* KSInterFace.swift in Sources */,
@@ -340,6 +353,7 @@
 				3C5414EF1F186A170089CFDD /* AppDelegate.swift in Sources */,
 				3CBAD7DB1F2865E00043DF3F /* KSTallyCell.swift in Sources */,
 				3C552A4E1F25D3660088E0A9 /* KSMainViewController.swift in Sources */,
+				3CD1B70F1F2F2D95009A0C60 /* KamyExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
