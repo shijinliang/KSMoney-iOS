@@ -16,4 +16,5 @@ target 'KSMoney-iOS' do
   pod 'SwiftyUserDefaults'
   pod 'Charts'
   pod 'CryptoSwift'
+  pod 'MJRefresh'
 end
