@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyUserDefaults
 
 //public let ApiHost          = "http://kamy.walkinglove.com:8080/"
 public let ApiHost          = "http://127.0.0.1:8080/"
@@ -21,6 +22,9 @@ class KSInterFace: NSObject {
 
 extension NSString {
     func tokenUrl() -> String {
+        if let token = Defaults[.token] {
+            return ApiHost+(self as String)+"?access_token=\(token)"
+        }
         return ApiHost+(self as String)
     }
 }
