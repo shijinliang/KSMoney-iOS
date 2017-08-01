@@ -17,6 +17,7 @@ class KSMainTallyAddView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.backgroundColor = UIColor(white: 1, alpha: 0.3)
         addSubview(recordBtn)
         recordBtn.snp.makeConstraints { (make) in
             make.top.bottom.left.right.equalToSuperview()
@@ -38,7 +39,7 @@ class KSMainTallyAddView: UIView {
 
     lazy var recordBtn: UIButton = {
         let button = UIButton(type: UIButtonType.custom)
-        button.backgroundColor = UIColor.white
+        button.backgroundColor = UIColor(white: 1, alpha: 0.3)
         button.adjustsImageWhenHighlighted = false
         button.setTitle("  记一笔", for: UIControlState.normal)
         button.setTitleColor(ColorMain, for: UIControlState.normal)
