@@ -9,6 +9,46 @@
 import UIKit
 import HandyJSON
 
-struct KSTallyModel: HandyJSON {
+class KSTallyModel: HandyJSON {
 
+    let uuid            : String = ""
+    let category_id     : Int = 0
+    let create_at       : Int = 0
+    let remark          : String = ""
+    let out_account_id  : Int = 0
+    let in_account_id   : Int = 0
+    let account_id      : Int = 0
+    let price           : Int = 0
+    let state           : Int = 0
+
+    var category        : Category?
+    var out_account     : Account?
+    var in_account      : Account?
+
+    var day             : String {
+        return self.create_at.getDay()
+    }
+    var month           : String {
+        return self.create_at.getDay()
+    }
+
+    required init() { }
+}
+
+
+class Category: HandyJSON {
+    let name        : String = ""
+    let create_at   : Int = 0
+    let parent_id   : Int = 0
+    let parent_name : String = ""
+    required init() { }
+}
+
+class Account: HandyJSON {
+    let name        : String = ""
+    let create_at   : Int = 0
+    let image       : String = ""
+    let image_tag   : String = ""
+    let type        : String = ""
+    required init() { }
 }
