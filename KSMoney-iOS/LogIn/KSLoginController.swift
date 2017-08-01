@@ -16,6 +16,7 @@ class KSLoginController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationItem.title = "登录"
         view.addSubview(phoneText)
         view.addSubview(passwordText)
         view.addSubview(enterBtn)
@@ -24,7 +25,7 @@ class KSLoginController: UIViewController {
             make.left.equalTo(view.snp.left).offset(20)
             make.right.equalTo(view.snp.right).offset(20)
             make.height.equalTo(50)
-            make.top.equalTo(view.snp.top).offset(40)
+            make.top.equalTo(view.snp.top).offset(40+AppNavHeight)
         }
 
         passwordText.snp.makeConstraints { (make) in
@@ -64,7 +65,8 @@ class KSLoginController: UIViewController {
                 window.makeKeyAndVisible()
             }
 
-            window.rootViewController = UINavigationController(rootViewController: KSMainViewController())
+            window.rootViewController = KSTabBarController()
+            //UINavigationController(rootViewController: KSMainViewController())
         }
     }
 

@@ -22,11 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let token = Defaults[.token]
         //let model = Defaults[.loginModel].object
         if token != nil {
-            let mainCtrl = KSMainViewController()
-            let nav = UINavigationController(rootViewController: mainCtrl)
-            window?.rootViewController = nav
+            //let mainCtrl = KSMainViewController()
+            //let nav = UINavigationController(rootViewController: mainCtrl)
+            window?.rootViewController = KSTabBarController()
         } else {
-            let loginCtrl = KSLoginController()
+            let loginCtrl = UINavigationController(rootViewController: KSLoginController())
             window?.rootViewController = loginCtrl
         }
 
