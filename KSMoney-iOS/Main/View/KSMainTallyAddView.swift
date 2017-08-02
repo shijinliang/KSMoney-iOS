@@ -17,10 +17,13 @@ class KSMainTallyAddView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor(white: 1, alpha: 0.3)
+        //self.backgroundColor = UIColor(white: 1, alpha: 0.3)
         addSubview(recordBtn)
         recordBtn.snp.makeConstraints { (make) in
             make.top.bottom.left.right.equalToSuperview()
+//            make.right.bottom.equalToSuperview()
+//            make.width.equalTo(82)
+//            make.height.equalTo(82)
         }
 
         layer.shadowOffset = CGSize(width: 0, height: 0)
@@ -39,11 +42,11 @@ class KSMainTallyAddView: UIView {
 
     lazy var recordBtn: UIButton = {
         let button = UIButton(type: UIButtonType.custom)
-        button.backgroundColor = UIColor(white: 1, alpha: 0.3)
+        button.backgroundColor = UIColor.clear//UIColor(white: 1, alpha: 0.3)
         button.adjustsImageWhenHighlighted = false
-        button.setTitle("  记一笔", for: UIControlState.normal)
+        //button.setTitle("  记一笔", for: UIControlState.normal)
         button.setTitleColor(ColorMain, for: UIControlState.normal)
-        button.setImage(UIImage(named: "icon_tally_add"), for: UIControlState.normal)
+        button.setImage(UIImage(named: "icon_tally_add_big"), for: UIControlState.normal)
         button.addTarget(self, action: #selector(KSMainTallyAddView.clickAddBlock), for: UIControlEvents.touchUpInside)
         return button
     }()

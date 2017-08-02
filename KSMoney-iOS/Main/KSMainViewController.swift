@@ -136,10 +136,12 @@ class KSMainViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     lazy var tableView: UITableView = {
         let tableview: UITableView = UITableView(frame: CGRect(x: 0, y: AppNavHeight, width: Int(AppWidth), height: Int(AppHeight)-Int(AppNavHeight)-AppBottomHeight), style: UITableViewStyle.grouped)
+        tableview.backgroundColor = UIColor.white
         tableview.delegate = self
         tableview.dataSource = self
         tableview.rowHeight = 60
-        tableview.separatorStyle = UITableViewCellSeparatorStyle.none
+        //tableview.separatorStyle = UITableViewCellSeparatorStyle.none
+        tableview.separatorColor = UIColor(hex: "f5f5f5")
         tableview.mj_header = MJRefreshStateHeader(refreshingBlock: { 
             self.page = 1
             self.getData()
@@ -162,7 +164,8 @@ class KSMainViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     //后期改为右下角的一个圆圈加好
     lazy var addView : KSMainTallyAddView = {
-        let view = KSMainTallyAddView(frame: CGRect(x: 0, y: Int(AppHeight)-AppBottomHeight-AppBottomHeight, width: Int(AppWidth), height: AppBottomHeight))
+        let view = KSMainTallyAddView(frame: CGRect(x: Int(AppWidth-82), y: Int(AppHeight)-AppBottomHeight-82, width: 82, height:82))
+        //KSMainTallyAddView(frame: CGRect(x: 0, y: Int(AppHeight)-AppBottomHeight-AppBottomHeight, width: Int(AppWidth), height: AppBottomHeight))
         return view
     }()
     
