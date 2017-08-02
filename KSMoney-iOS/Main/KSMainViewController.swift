@@ -13,6 +13,7 @@ class KSMainViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     var page: Int = 1
     var curDay: Int = 0
+    var selectDay: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,23 +69,25 @@ class KSMainViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
         var dic = self.dataDic
         for model in models {
-            let day = model.day
+            let month = model.month
             var array: [KSTallyModel]
-            if let dayArr = dic[day] {
+            if let dayArr = dic[month] {
                 array = dayArr
             } else {
                 array = [KSTallyModel]()
             }
             array.append(model)
-
-            dic.updateValue(array, forKey: day)
+            array.sort(by: { (model1, model2) -> Bool in
+                return model1.create_at > model2.create_at
+            })
+            dic.updateValue(array, forKey: month)
         }
         self.dataDic = dic
 
-        let allDay: [String] = dic.keys.sorted { (day1, day2) -> Bool in
-            return day1>day2
+        let allMonth: [String] = dic.keys.sorted { (month1, month2) -> Bool in
+            return month1>month2
         }
-        self.groupArray = allDay
+        self.groupArray = allMonth
 
         tableView.reloadData()
 
@@ -115,7 +118,16 @@ class KSMainViewController: UIViewController, UITableViewDelegate, UITableViewDa
             let str = groupArray[indexPath.section]
             let array: [KSTallyModel] = dataDic[str]!
             if indexPath.row < array.count {
-                cell.model = array[indexPath.row]
+                let model = array[indexPath.row]
+                cell.model = model
+                if (selectDay == "") || (selectDay != model.day) {
+                    selectDay = model.day
+                    cell.dayLabel.text = selectDay
+                    cell.weekLabel.text = model.week
+                } else {
+                    cell.dayLabel.text = ""
+                    cell.weekLabel.text = ""
+                }
             }
         }
         return cell
