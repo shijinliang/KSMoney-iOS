@@ -18,7 +18,7 @@ class KSTallyModel: HandyJSON {
     let out_account_id  : Int = 0
     let in_account_id   : Int = 0
     let account_id      : Int = 0
-    let price           : Int = 0
+    let price           : Float = 0.00
     let state           : Int = 0
 
     var category        : Category?
@@ -28,8 +28,14 @@ class KSTallyModel: HandyJSON {
     var day             : String {
         return self.create_at.getDay()
     }
+    var week            : String {
+        return self.create_at.getWeek()
+    }
+    var ymday           : String {
+        return self.create_at.getYearMonthDay()
+    }
     var month           : String {
-        return self.create_at.getDay()
+        return self.create_at.getYearMonth()
     }
 
     required init() { }
