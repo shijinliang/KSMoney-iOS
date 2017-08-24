@@ -20,8 +20,15 @@
 		3C552A681F25DE220088E0A9 /* KSMainTallyAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */; };
 		3C552A6C1F25DECF0088E0A9 /* AppTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A6B1F25DECF0088E0A9 /* AppTool.swift */; };
 		3C552A6E1F25DFA00088E0A9 /* KSInterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */; };
+		3C69177C1F31D32900DD8ECA /* KSMoneyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C69177B1F31D32900DD8ECA /* KSMoneyText.swift */; };
+		3C69177E1F31D78F00DD8ECA /* KSMoneyKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C69177D1F31D78F00DD8ECA /* KSMoneyKeyBoard.swift */; };
+		3C6917801F31E1AC00DD8ECA /* CalculatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C69177F1F31E1AC00DD8ECA /* CalculatorView.xib */; };
 		3C7BB2E71F2739AE005D84B7 /* KSLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BB2E61F2739AE005D84B7 /* KSLoginModel.swift */; };
 		3C7BB2E91F273C7F005D84B7 /* KSNetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BB2E81F273C7F005D84B7 /* KSNetTool.swift */; };
+		3C88BE6A1F4EECB300708DF3 /* KSAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88BE691F4EECB300708DF3 /* KSAccountModel.swift */; };
+		3C88BE6C1F4EECC600708DF3 /* KSAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88BE6B1F4EECC600708DF3 /* KSAccountController.swift */; };
+		3C88BE6F1F4EECE500708DF3 /* KSAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88BE6D1F4EECE500708DF3 /* KSAccountCell.swift */; };
+		3C88BE701F4EECE500708DF3 /* KSAccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C88BE6E1F4EECE500708DF3 /* KSAccountCell.xib */; };
 		3CBAD7D81F283F960043DF3F /* KSTallyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */; };
 		3CBAD7DB1F2865E00043DF3F /* KSTallyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAD7D91F2865E00043DF3F /* KSTallyCell.swift */; };
 		3CBAD7DC1F2865E00043DF3F /* KSTallyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAD7DA1F2865E00043DF3F /* KSTallyCell.xib */; };
@@ -47,8 +54,15 @@
 		3C552A671F25DE220088E0A9 /* KSMainTallyAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSMainTallyAddView.swift; sourceTree = "<group>"; };
 		3C552A6B1F25DECF0088E0A9 /* AppTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTool.swift; sourceTree = "<group>"; };
 		3C552A6D1F25DFA00088E0A9 /* KSInterFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSInterFace.swift; sourceTree = "<group>"; };
+		3C69177B1F31D32900DD8ECA /* KSMoneyText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSMoneyText.swift; sourceTree = "<group>"; };
+		3C69177D1F31D78F00DD8ECA /* KSMoneyKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSMoneyKeyBoard.swift; sourceTree = "<group>"; };
+		3C69177F1F31E1AC00DD8ECA /* CalculatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorView.xib; sourceTree = "<group>"; };
 		3C7BB2E61F2739AE005D84B7 /* KSLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLoginModel.swift; sourceTree = "<group>"; };
 		3C7BB2E81F273C7F005D84B7 /* KSNetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSNetTool.swift; sourceTree = "<group>"; };
+		3C88BE691F4EECB300708DF3 /* KSAccountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSAccountModel.swift; sourceTree = "<group>"; };
+		3C88BE6B1F4EECC600708DF3 /* KSAccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSAccountController.swift; sourceTree = "<group>"; };
+		3C88BE6D1F4EECE500708DF3 /* KSAccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSAccountCell.swift; sourceTree = "<group>"; };
+		3C88BE6E1F4EECE500708DF3 /* KSAccountCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSAccountCell.xib; sourceTree = "<group>"; };
 		3CBAD7D71F283F960043DF3F /* KSTallyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyModel.swift; sourceTree = "<group>"; };
 		3CBAD7D91F2865E00043DF3F /* KSTallyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTallyCell.swift; sourceTree = "<group>"; };
 		3CBAD7DA1F2865E00043DF3F /* KSTallyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSTallyCell.xib; sourceTree = "<group>"; };
@@ -98,6 +112,7 @@
 				3C552A4C1F25D3210088E0A9 /* Main */,
 				3C552A4F1F25D5180088E0A9 /* TallyList */,
 				3C552A641F25DE0A0088E0A9 /* TallyAdd */,
+				3C88BE651F4EEC7000708DF3 /* Account */,
 				3C552A5B1F25D7A90088E0A9 /* Tool */,
 				3C5414F51F186A180089CFDD /* Assets.xcassets */,
 				3C5414F71F186A180089CFDD /* LaunchScreen.storyboard */,
@@ -168,8 +183,54 @@
 			isa = PBXGroup;
 			children = (
 				3C552A651F25DE0A0088E0A9 /* KSTallyAddController.swift */,
+				3C69177A1F31D2DB00DD8ECA /* View */,
 			);
 			path = TallyAdd;
+			sourceTree = "<group>";
+		};
+		3C69177A1F31D2DB00DD8ECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C69177B1F31D32900DD8ECA /* KSMoneyText.swift */,
+				3C69177D1F31D78F00DD8ECA /* KSMoneyKeyBoard.swift */,
+				3C69177F1F31E1AC00DD8ECA /* CalculatorView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C88BE651F4EEC7000708DF3 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				3C88BE661F4EEC9A00708DF3 /* Controller */,
+				3C88BE671F4EEC9A00708DF3 /* Model */,
+				3C88BE681F4EEC9A00708DF3 /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		3C88BE661F4EEC9A00708DF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C88BE6B1F4EECC600708DF3 /* KSAccountController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C88BE671F4EEC9A00708DF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C88BE691F4EECB300708DF3 /* KSAccountModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C88BE681F4EEC9A00708DF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C88BE6D1F4EECE500708DF3 /* KSAccountCell.swift */,
+				3C88BE6E1F4EECE500708DF3 /* KSAccountCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		7BA16C335E586CFEC400B13B /* Frameworks */ = {
@@ -254,6 +315,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C88BE701F4EECE500708DF3 /* KSAccountCell.xib in Resources */,
+				3C6917801F31E1AC00DD8ECA /* CalculatorView.xib in Resources */,
 				3CBAD7DC1F2865E00043DF3F /* KSTallyCell.xib in Resources */,
 				3C5414F91F186A180089CFDD /* LaunchScreen.storyboard in Resources */,
 				3C5414F61F186A180089CFDD /* Assets.xcassets in Resources */,
@@ -338,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C552A581F25D6780088E0A9 /* KSTallyListController.swift in Sources */,
+				3C88BE6F1F4EECE500708DF3 /* KSAccountCell.swift in Sources */,
 				3C7BB2E91F273C7F005D84B7 /* KSNetTool.swift in Sources */,
 				3CD1B70B1F2F2060009A0C60 /* KSTabBarController.swift in Sources */,
 				3C5414F11F186A170089CFDD /* ViewController.swift in Sources */,
@@ -350,10 +414,14 @@
 				3C552A631F25DBE00088E0A9 /* UIColor_Kamy.swift in Sources */,
 				3C552A661F25DE0A0088E0A9 /* KSTallyAddController.swift in Sources */,
 				3C7BB2E71F2739AE005D84B7 /* KSLoginModel.swift in Sources */,
+				3C88BE6C1F4EECC600708DF3 /* KSAccountController.swift in Sources */,
+				3C69177E1F31D78F00DD8ECA /* KSMoneyKeyBoard.swift in Sources */,
 				3C5414EF1F186A170089CFDD /* AppDelegate.swift in Sources */,
+				3C88BE6A1F4EECB300708DF3 /* KSAccountModel.swift in Sources */,
 				3CBAD7DB1F2865E00043DF3F /* KSTallyCell.swift in Sources */,
 				3C552A4E1F25D3660088E0A9 /* KSMainViewController.swift in Sources */,
 				3CD1B70F1F2F2D95009A0C60 /* KamyExtension.swift in Sources */,
+				3C69177C1F31D32900DD8ECA /* KSMoneyText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
