@@ -25,6 +25,7 @@ class KSMainViewController: UIViewController, UITableViewDelegate, UITableViewDa
         view.addSubview(addView)
         addView.block = { () in
             let addCtrl = KSTallyAddController()
+            addCtrl.setAddType(.expend)
             self.navigationController?.pushViewController(addCtrl, animated: true)
         }
         getData()

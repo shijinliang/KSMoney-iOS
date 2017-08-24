@@ -37,13 +37,13 @@ class KSTallyCell: UITableViewCell {
             }
             moneyLabel.text = (model?.price)!.formatPrice()
             if (model?.in_account_id)! > 0 && (model?.out_account_id)! > 0 {
-                moneyLabel.textColor = UIColor(hex: "00B5FF")
+                moneyLabel.textColor = ColorTransfer
                 self.typeIcon.image = UIImage(named: "icon_transfer")
             } else if (model?.in_account_id)! > 0 {
-                moneyLabel.textColor = UIColor(hex: "FF6710")
+                moneyLabel.textColor = ColorIncome
                 self.typeIcon.image = UIImage(named: "icon_income")
             } else {
-                moneyLabel.textColor = UIColor(hex: "999999")
+                moneyLabel.textColor = ColorExpend
                 self.typeIcon.image = UIImage(named: "icon_expend")
             }
             remarkLabel.text = (model?.remark)!

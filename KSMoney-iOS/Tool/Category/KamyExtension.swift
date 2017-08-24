@@ -118,5 +118,16 @@ extension String {
         yes = yes - 3600*24
         return self == yes.getDay()
     }
+
+    func isTwoDecimal() -> Bool {
+        let str: NSString = self as NSString
+        if str.contains(".") {
+            let pathEx = str.pathExtension
+            if pathEx.characters.count > 2 {
+                return false
+            }
+        }
+        return true
+    }
 }
 

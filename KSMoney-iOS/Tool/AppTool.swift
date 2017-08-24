@@ -16,7 +16,11 @@ public let AppBottomHeight  = 49
 public let KSAnimationTime  = 0.25
 public let KSShadowRadius   = 10
 
-public let ColorMain        = UIColor(hex: "00B5FF")
+public let ColorMain        = UIColor(hex: "FF6710")
+public let ColorGray        = UIColor(hex: "8A8A8A")
+public let ColorTransfer    = UIColor(hex: "00B5FF")
+public let ColorIncome      = UIColor(hex: "FF6710")
+public let ColorExpend      = UIColor(hex: "999999")
 class AppTool : NSObject {
 
 }
